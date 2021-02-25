@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Event-Tracker/static/css/main.a2872554.chunk.css",
+    "main.js": "/Event-Tracker/static/js/main.944e9d4a.chunk.js",
+    "main.js.map": "/Event-Tracker/static/js/main.944e9d4a.chunk.js.map",
+    "runtime-main.js": "/Event-Tracker/static/js/runtime-main.ec3e2926.js",
+    "runtime-main.js.map": "/Event-Tracker/static/js/runtime-main.ec3e2926.js.map",
+    "static/js/2.1e643035.chunk.js": "/Event-Tracker/static/js/2.1e643035.chunk.js",
+    "static/js/2.1e643035.chunk.js.map": "/Event-Tracker/static/js/2.1e643035.chunk.js.map",
+    "static/js/3.cb6a77c3.chunk.js": "/Event-Tracker/static/js/3.cb6a77c3.chunk.js",
+    "static/js/3.cb6a77c3.chunk.js.map": "/Event-Tracker/static/js/3.cb6a77c3.chunk.js.map",
+    "index.html": "/Event-Tracker/index.html",
+    "static/css/main.a2872554.chunk.css.map": "/Event-Tracker/static/css/main.a2872554.chunk.css.map",
+    "static/js/2.1e643035.chunk.js.LICENSE.txt": "/Event-Tracker/static/js/2.1e643035.chunk.js.LICENSE.txt",
+    "static/media/spinner.ec715867.gif": "/Event-Tracker/static/media/spinner.ec715867.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec3e2926.js",
+    "static/js/2.1e643035.chunk.js",
+    "static/css/main.a2872554.chunk.css",
+    "static/js/main.944e9d4a.chunk.js"
+  ]
+}
