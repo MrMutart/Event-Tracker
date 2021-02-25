@@ -184,6 +184,13 @@ body {
   padding: 4px 0;
 }
 
+#close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ccc;
+}
+
 
 /*  media queries  */
 
