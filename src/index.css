@@ -80,67 +80,82 @@ body {
 .quake-icon {
   color:rgb(131, 0, 61);
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .fire-icon {
   color: rgba(255, 72, 0, 0.719);
   font-size: 2.5rem;
+  cursor: pointer;
 }
 
 .snow-icon {
   color:rgb(0, 183, 255);
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .storm-icon {
   color: rgba(95, 95, 95, 0.665);
   font-size: 3rem;
+  cursor: pointer;
 }
 
 .heat-icon {
   color: red;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .flood-icon {
   color: rgba(0, 0, 255, 0.89);
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .ice-icon {
   color: rgba(107, 53, 255, 0.76);
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .volcano-icon {
   color: rgb(119, 60, 60);
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .drought-icon {
   color: black;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .dust-icon {
   color: rgb(255, 166, 0);
   font-size: 2.5rem;
+  cursor: pointer;
 }
 
 .slide-icon {
   color: black;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .man-icon {
   color: rgb(255, 35, 182);
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .water-icon {
   color:blue;
   font-size: 2rem;
+  cursor: pointer;
 }
+
+
 
 
 /*  marker info tags  */
