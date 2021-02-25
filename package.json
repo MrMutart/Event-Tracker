@@ -1,8 +1,19 @@
 {
+  "homepage": "http://MrMutart.github.io/Event-Tracker",
   "name": "event-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@iconify-icons/ant-design": "^1.1.0",
+    "@iconify-icons/carbon": "^1.1.1",
+    "@iconify-icons/fa-solid": "^1.1.0",
+    "@iconify-icons/jam": "^1.1.0",
+    "@iconify-icons/maki": "^1.1.0",
+    "@iconify-icons/map": "^1.1.0",
+    "@iconify-icons/ri": "^1.1.0",
+    "@iconify-icons/simple-icons": "^1.1.13",
+    "@iconify-icons/wi": "^1.1.0",
+    "@iconify/react": "^1.1.4",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.2",
@@ -12,6 +23,8 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
