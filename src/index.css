@@ -11,18 +11,18 @@ body {
 /*  the main header  */
 
 .header {
-  background-color:rgba(32, 32, 32, 0.808);
-  color: white;
+  background: linear-gradient(0.5turn, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
+  color: rgba(0, 0, 0, 0.678);
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 100;
-  box-shadow: 0 15px 15px rgba(49, 49, 49, 0.55);
+  box-shadow: 0 12px 30px rgba(49, 49, 49, 0.65);
 }
 
 .header h1 {
-  font-size: 30px;
+  font-size: 40px;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -41,8 +41,13 @@ body {
   color: red;
   padding-left: 4px;
   padding-right: 4px;
-  font-size: 80px;
-  vertical-align: -0.385em;
+  font-size: 90px;
+  vertical-align: -0.35em;
+}
+
+.header:hover {
+  box-shadow: 0 14px 32px rgba(49, 49, 49, 0.75);
+  background: linear-gradient(0.5turn, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.85));
 }
 
 
@@ -57,6 +62,7 @@ body {
 }
 
 .loader h1 {
+  text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -167,10 +173,10 @@ body {
   margin-right: 20px;
   min-width: 100px;
   min-height: 100px;
-  padding: 20px;
+  padding: 30px;
   box-shadow: 8px 8px 10px rgba(63, 63, 63, 0.55);
   background: linear-gradient(0.5turn, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6));
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 20px;
   color: black;
 }
@@ -180,21 +186,50 @@ body {
   padding: 0;
 }
 
+.location-info ul strong {
+  padding-left: 15px;
+}
+
 .location-info li {
   padding: 4px 0;
 }
 
-#close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: #ccc;
+.location-info p {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.location-info:hover {
+  box-shadow: 10px 10px 12px rgba(63, 63, 63, 0.65);
+  background: linear-gradient(0.5turn, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.85));
 }
 
 
 /*  media queries  */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1110px) {
+
+  /* resize header */
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .head-nasa-icon {
+    font-size: 75px;
+  }
+
+  /* resize information display */
+  .location-info {
+    bottom: 60px;
+    left: 60px;
+    padding: 15px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 970px) {
 
   /* resize header */
   .header h1 {
@@ -231,14 +266,19 @@ body {
 
   /* resize information display */
   .location-info {
-    bottom: 50px;
-    left: 50px;
+    bottom: 35px;
+    left: 35px;
     padding: 10px;
     font-size: 16px;
   }
 
   .location-info li {
     padding: 3px 0;
+  }
+
+  .location-info p {
+    font-size: 12px;
+    padding-top: 15px;
   }
 }
 
@@ -257,12 +297,16 @@ body {
   .location-info {
     bottom: 20px;
     left: 20px;
-    padding: 4px;
     font-size: 14px;
   }
 
   .location-info li {
     padding: 2px 0;
+  }
+
+  .location-info p {
+    font-size: 10px;
+    padding-top: 10px;
   }
 }
 

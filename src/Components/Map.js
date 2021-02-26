@@ -18,6 +18,9 @@ import WaterMarker from './WaterMarker'
 const Map = ({ eventData, center, zoom }) => {
 
     const [ locationInfo, setLocationInfo ] = useState(null)
+    const toggleLocationInfoDisplay = () => {
+        setLocationInfo(null)
+    }
     const TOK = process.env.REACT_APP_TOK
 
     const markers = eventData.map(ev => {
@@ -136,6 +139,7 @@ const Map = ({ eventData, center, zoom }) => {
                 bootstrapURLKeys={{ key: TOK }}
                 center={ center }
                 zoom={ zoom }
+                onClick={ toggleLocationInfoDisplay }
             >
 
                 { markers }
