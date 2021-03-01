@@ -45,11 +45,6 @@ body {
   vertical-align: -0.35em;
 }
 
-.header:hover {
-  box-shadow: 0 14px 32px rgba(49, 49, 49, 0.75);
-  background: linear-gradient(0.5turn, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.85));
-}
-
 
 /*  the loading page  */
 
@@ -83,85 +78,147 @@ body {
 
 /*  map markers  */
 
+.location-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.location-marker:hover {
+  cursor: pointer;
+  z-index: 1;
+}
+
 .quake-icon {
   color:rgb(131, 0, 61);
   font-size: 2rem;
-  cursor: pointer;
+}
+
+.quake-icon:hover {
+  filter: drop-shadow(0 0 0.3rem rgb(131, 0, 61));
+  font-size: 2.5rem;
 }
 
 .fire-icon {
   color: rgba(255, 72, 0, 0.719);
   font-size: 2.5rem;
-  cursor: pointer;
+}
+
+.fire-icon:hover {
+  filter: drop-shadow(0 0 0.3rem rgb(255, 72, 0));
+  font-size: 3rem;
 }
 
 .snow-icon {
   color:rgb(0, 183, 255);
   font-size: 2rem;
-  cursor: pointer;
+}
+
+.snow-icon:hover {
+  filter: drop-shadow(0 0 0.3rem rgb(0, 183, 255));
+  font-size: 2.5rem;
 }
 
 .storm-icon {
   color: rgba(95, 95, 95, 0.665);
   font-size: 3rem;
-  cursor: pointer;
+}
+
+.storm-icon:hover {
+  filter: drop-shadow(0 0 0.3rem black);
+  font-size: 3.75rem;
 }
 
 .heat-icon {
   color: red;
   font-size: 2rem;
-  cursor: pointer;
+}
+
+.heat-icon {
+  filter: drop-shadow(0 0 0.3rem red);
+  font-size: 2.5rem;
 }
 
 .flood-icon {
   color: rgba(0, 0, 255, 0.89);
   font-size: 1.5rem;
-  cursor: pointer;
+}
+
+.flood-icon:hover {
+  filter: drop-shadow(0 0 0.3rem blue);
+  font-size: 2rem;
 }
 
 .ice-icon {
   color: rgba(107, 53, 255, 0.76);
-  font-size: 1.5rem;
-  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.ice-icon:hover {
+  filter: drop-shadow(0 0 0.3rem rgb(107, 53, 255));
+  font-size: 2.1rem;
 }
 
 .volcano-icon {
   color: rgb(119, 60, 60);
   font-size: 1.5rem;
-  cursor: pointer;
+}
+
+.volcano-icon:hover {
+  filter: drop-shadow(0 0 0.3rem rgb(119, 60, 60));
+  font-size: 2rem;
 }
 
 .drought-icon {
   color: black;
   font-size: 2rem;
-  cursor: pointer;
+}
+
+.drought-icon:hover {
+  filter: drop-shadow(0 0 0.3rem black);
+  font-size: 2.5rem;
 }
 
 .dust-icon {
   color: rgb(255, 166, 0);
   font-size: 2.5rem;
-  cursor: pointer;
+}
+
+.dust-icon:hover {
+  filter: drop-shadow(0 0 0.3rem rgb(255, 166, 0));
+  font-size: 3rem;
 }
 
 .slide-icon {
   color: black;
   font-size: 2rem;
-  cursor: pointer;
+}
+
+.slide-icon:hover {
+  filter: drop-shadow(0 0 0.3rem black);
+  font-size: 2.5rem;
 }
 
 .man-icon {
   color: rgb(255, 35, 182);
   font-size: 2rem;
-  cursor: pointer;
+}
+
+.man-icon:hover {
+  filter: drop-shadow(0 0 0.3rem rgb(255, 35, 182));
+  font-size: 2.5rem;
 }
 
 .water-icon {
   color:blue;
   font-size: 2rem;
-  cursor: pointer;
 }
 
-
+.water-icon:hover {
+  filter: drop-shadow(0 0 0.3rem blue);
+  font-size: 2.5rem;
+}
 
 
 /*  marker info tags  */
@@ -176,7 +233,7 @@ body {
   padding: 30px;
   box-shadow: 8px 8px 10px rgba(63, 63, 63, 0.55);
   background: linear-gradient(0.5turn, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6));
-  border-radius: 20px;
+  border-radius: 15px;
   font-size: 20px;
   color: black;
 }
